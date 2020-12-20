@@ -8,7 +8,7 @@ ret, frame = capture.read()
 windowsize = (800, 600)
 frame = cv2.resize(frame, windowsize)
 
-cv2.imwrite('test.tif', frame) 
+cv2.imwrite('test.png', frame) 
 
 capture.release()
 cv2.destroyAllWindows()
